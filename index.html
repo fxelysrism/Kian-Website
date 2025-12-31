@@ -1,0 +1,518 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Kian Price — Developer Portfolio</title>
+  <meta name="description" content="Portfolio of Kian Price — creative programmer and web developer." />
+  <link rel="icon" type="image/x-icon" href="image/favicon.ico">
+  <link rel="icon" type="image/png" sizes="16x16" href="image/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="image/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="image/apple-touch-icon.png">
+  <link rel="manifest" href="image/site.webmanifest">
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600;700&family=Inter:wght@400;500;600;700&display=swap');
+  </style>
+  <link rel="stylesheet" href="src/styles.css">
+  <script src="src/header-effects.js" defer></script>
+</head>
+<body>
+  <div class="cursor-glow"></div>
+
+  <div id="name-prompt">
+    <div id="name-prompt-content">
+      <h2>Welcome</h2>
+      <p>Enter your name to personalize your experience</p>
+      <form id="name-form">
+        <input type="text" id="user-name-input" placeholder="Your name..." required autocomplete="off" maxlength="20">
+        <button type="submit">Continue</button>
+      </form>
+    </div>
+  </div>
+
+  <div id="loader">
+    <div id="terminal-loader">
+      <div id="terminal-header">
+        <div class="dot red"></div><div class="dot yellow"></div><div class="dot green"></div>
+        <div class="terminal-title">Terminal — kian@macbook</div>
+      </div>
+      <div id="terminal-content">Last login: Tue Oct 31 15:23:42 on ttys000
+kian@Kians-MacBook-Pro ~ % portfolio start
+
+🔄 Initializing Portfolio System...
+ℹ️  Checking dependencies...
+✓ Node.js v18.12.1
+✓ React v18.2.0
+✓ Next.js v13.4.12
+
+� Starting development server...
+✓ Compiling...
+✓ Ready in 892ms
+
+� Portfolio services:
+  ➜ Website: http://localhost:3000
+  ➜ API: http://localhost:3000/api
+  ➜ Database: Connected
+
+⭐️ System ready! Welcome, Kian.
+
+kian@Kians-MacBook-Pro ~ % _</div>
+    </div>
+  </div>
+
+  <div id="content">
+    <header>
+      <div class="header-content">
+        <a href="#" class="logo">
+          <span>Kian Price</span>
+        </a>
+        <nav>
+          <a href="#hero">Home</a>
+          <a href="#portfolio">Projects</a>
+          <a href="#logos">Logos</a>
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <section class="hero" id="hero">
+      <div class="hero-particles">
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+      </div>
+      <div class="hero-content">
+        <div class="hero-badge">
+          <span></span>
+          Available for work
+        </div>
+        <h1>Full-Stack Developer Building Digital Experiences</h1>
+        <p class="hero-subtitle">Transforming ideas into scalable web applications with modern technologies. Specializing in React, Node.js, and cloud architecture.</p>
+        <div class="hero-actions">
+          <a href="#schedule" class="hero-cta">Schedule a Call</a>
+          <a href="#portfolio" class="hero-cta-secondary">View Work</a>
+        </div>
+        <div class="socials">
+          <a class="social-btn" href="https://linkedin.com" target="_blank" aria-label="LinkedIn">
+            <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg" alt="">
+          </a>
+          <a class="social-btn" href="https://twitter.com" target="_blank" aria-label="Twitter">
+            <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/x.svg" alt="">
+          </a>
+          <a class="social-btn" href="https://facebook.com" target="_blank" aria-label="Facebook">
+            <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/facebook.svg" alt="">
+          </a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="code-window">
+          <div class="code-header">
+            <div class="code-dot red"></div>
+            <div class="code-dot yellow"></div>
+            <div class="code-dot green"></div>
+          </div>
+          <div class="code-body">
+            <div class="code-line">
+              <span class="line-number">1</span>
+              <span class="code-content"><span class="code-keyword">const</span> developer = {</span>
+            </div>
+            <div class="code-line">
+              <span class="line-number">2</span>
+              <span class="code-content">  name: <span class="code-string">"Kian Price"</span>,</span>
+            </div>
+            <div class="code-line">
+              <span class="line-number">3</span>
+              <span class="code-content">  skills: [<span class="code-string">"React"</span>, <span class="code-string">"Node.js"</span>, <span class="code-string">"Python"</span>],</span>
+            </div>
+            <div class="code-line">
+              <span class="line-number">4</span>
+              <span class="code-content">  passion: <span class="code-string">"Building great software"</span>,</span>
+            </div>
+            <div class="code-line">
+              <span class="line-number">5</span>
+              <span class="code-content">  <span class="code-function">createProject</span>: <span class="code-keyword">function</span>() {</span>
+            </div>
+            <div class="code-line">
+              <span class="line-number">6</span>
+              <span class="code-content">    <span class="code-keyword">return</span> <span class="code-string">"Excellence"</span>;</span>
+            </div>
+            <div class="code-line">
+              <span class="line-number">7</span>
+              <span class="code-content">  }</span>
+            </div>
+            <div class="code-line">
+              <span class="line-number">8</span>
+              <span class="code-content">};</span>
+            </div>
+            <div class="code-line">
+              <span class="line-number">9</span>
+              <span class="code-content"></span>
+            </div>
+            <div class="code-line">
+              <span class="line-number">10</span>
+              <span class="code-content"><span class="code-comment">// Let's build something amazing</span></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+      <div class="portfolio-header">
+        <h2>Featured Projects</h2>
+        <p class="portfolio-subtitle">Recent work showcasing my expertise across different technologies</p>
+      </div>
+
+      <div class="websites-grid">
+        <div class="website-card">
+          <div class="website-preview">
+            <iframe src="https://aspectesports.co.uk" title="Aspect Esports" loading="lazy"></iframe>
+          </div>
+          <div class="website-footer">
+            <div class="website-info">
+              <h3>Aspect Esports</h3>
+              <p>Professional esports organization platform with team management and event systems</p>
+              <div class="website-tags">
+                <span class="tag">React</span>
+                <span class="tag">Node.js</span>
+                <span class="tag">MongoDB</span>
+              </div>
+            </div>
+            <a href="https://aspectesports.co.uk" target="_blank" class="website-link">View Live →</a>
+          </div>
+        </div>
+
+        <div class="website-card">
+          <div class="website-preview">
+            <iframe src="https://dispulse.co" title="Dispulse" loading="lazy"></iframe>
+          </div>
+          <div class="website-footer">
+            <div class="website-info">
+              <h3>Dispulse</h3>
+              <p>Modern web platform delivering innovative digital solutions and services</p>
+              <div class="website-tags">
+                <span class="tag">Next.js</span>
+                <span class="tag">TypeScript</span>
+                <span class="tag">Tailwind</span>
+              </div>
+            </div>
+            <a href="https://dispulse.co" target="_blank" class="website-link">View Live →</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="logos" id="logos">
+      <div class="logos-content">
+        <div class="logos-header">
+          <h2>Logo Design</h2>
+          <p class="logos-subtitle">Brand identities and logo designs I've created</p>
+        </div>
+
+        <div class="logos-grid">
+          <div class="logo-card">
+            <div class="logo-placeholder">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/>
+                <polyline points="7.5 4.21 12 6.81 16.5 4.21"/>
+                <polyline points="7.5 19.79 7.5 14.6 3 12"/>
+                <polyline points="21 12 16.5 14.6 16.5 19.79"/>
+                <polyline points="3.27 6.96 12 12.01 20.73 6.96"/>
+                <line x1="12" y1="22.08" x2="12" y2="12"/>
+              </svg>
+              <p>Logo Project 1</p>
+            </div>
+            <div class="logo-info">
+              <h3>Brand Identity</h3>
+              <p>Click to upload your logo image</p>
+            </div>
+          </div>
+
+          <div class="logo-card">
+            <div class="logo-placeholder">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <circle cx="12" cy="12" r="10"/>
+                <path d="M12 6v6l4 2"/>
+              </svg>
+              <p>Logo Project 2</p>
+            </div>
+            <div class="logo-info">
+              <h3>Brand Identity</h3>
+              <p>Click to upload your logo image</p>
+            </div>
+          </div>
+
+          <div class="logo-card">
+            <div class="logo-placeholder">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+                <path d="M2 17l10 5 10-5"/>
+                <path d="M2 12l10 5 10-5"/>
+              </svg>
+              <p>Logo Project 3</p>
+            </div>
+            <div class="logo-info">
+              <h3>Brand Identity</h3>
+              <p>Click to upload your logo image</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="about-content">
+        <div class="about-header">
+          <h2>About Me</h2>
+          <p class="about-subtitle">Building digital experiences with passion and precision</p>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-text">
+            <p>I'm a full-stack developer with a passion for creating elegant, performant web applications. With expertise spanning modern frontend frameworks to robust backend systems, I bring ideas to life through clean code and thoughtful design.</p>
+
+            <p>My approach combines technical excellence with user-centric thinking. Whether it's architecting scalable cloud infrastructure or crafting pixel-perfect interfaces, I focus on delivering solutions that not only work flawlessly but provide exceptional user experiences.</p>
+
+            <div class="about-stats">
+              <div class="stat-card">
+                <div class="stat-number">5+</div>
+                <div class="stat-label">Years Experience</div>
+              </div>
+              <div class="stat-card">
+                <div class="stat-number">50+</div>
+                <div class="stat-label">Projects Completed</div>
+              </div>
+              <div class="stat-card">
+                <div class="stat-number">30+</div>
+                <div class="stat-label">Happy Clients</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-image">
+            <div class="profile-card">
+              <div class="profile-placeholder">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
+                  <circle cx="12" cy="7" r="4"/>
+                </svg>
+              </div>
+              <div class="profile-info">
+                <h3>Kian Price</h3>
+                <p>Full-Stack Developer</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills" id="skills">
+      <div class="skills-content">
+        <div class="skills-header">
+          <h2>Tech Stack</h2>
+          <p class="skills-subtitle">Technologies and tools I specialize in</p>
+        </div>
+
+        <div class="skills-categories">
+          <div class="skill-category">
+            <h3>Frontend Development</h3>
+            <div class="skill-list">
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">React & Next.js</span>
+                  <span class="skill-level">Expert</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 95%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">TypeScript</span>
+                  <span class="skill-level">Advanced</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 90%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">HTML/CSS/JavaScript</span>
+                  <span class="skill-level">Expert</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 95%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <h3>Backend Development</h3>
+            <div class="skill-list">
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">Node.js & Express</span>
+                  <span class="skill-level">Expert</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 90%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">Python & Django</span>
+                  <span class="skill-level">Advanced</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 85%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">PostgreSQL & MongoDB</span>
+                  <span class="skill-level">Advanced</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 88%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <h3>DevOps & Cloud</h3>
+            <div class="skill-list">
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">Docker & Kubernetes</span>
+                  <span class="skill-level">Advanced</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 82%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">AWS & Azure</span>
+                  <span class="skill-level">Intermediate</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 75%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">CI/CD Pipelines</span>
+                  <span class="skill-level">Advanced</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 80%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cv-section" id="cv">
+      <div class="cv-content">
+        <div class="cv-header">
+          <h2>My CV</h2>
+          <p class="cv-subtitle">Download my full curriculum vitae</p>
+        </div>
+
+        <div class="cv-card">
+          <div class="cv-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+              <polyline points="14 2 14 8 20 8"/>
+              <line x1="16" y1="13" x2="8" y2="13"/>
+              <line x1="16" y1="17" x2="8" y2="17"/>
+              <polyline points="10 9 9 9 8 9"/>
+            </svg>
+          </div>
+          <div class="cv-info">
+            <h3>Curriculum Vitae</h3>
+            <p>Complete professional history, skills, education, and achievements</p>
+            <div class="cv-details">
+              <span>PDF Format</span>
+              <span>•</span>
+              <span>Last Updated: October 2025</span>
+            </div>
+          </div>
+          <button class="cv-download-btn">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+              <polyline points="7 10 12 15 17 10"/>
+              <line x1="12" y1="15" x2="12" y2="3"/>
+            </svg>
+            Download CV
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>Let's Connect</h2>
+      <p>Want to collaborate, discuss tech, or share ideas? Feel free to reach out — I'd love to connect.</p>
+      <a class="contact-btn" href="mailto:kianprice210@gmail.com">Get in Touch</a>
+    </section>
+
+    <footer>
+      <div class="footer-content">
+        <div class="footer-brand">
+          <a href="#" class="logo">
+            <span>Kian Price</span>
+          </a>
+          <p>Creative programmer and web developer crafting elegant digital experiences with modern technologies.</p>
+          <div class="footer-socials">
+            <a class="social-btn" href="https://linkedin.com" target="_blank" aria-label="LinkedIn">
+              <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg" alt="">
+            </a>
+            <a class="social-btn" href="https://twitter.com" target="_blank" aria-label="Twitter">
+              <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/x.svg" alt="">
+            </a>
+            <a class="social-btn" href="https://facebook.com" target="_blank" aria-label="Facebook">
+              <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/facebook.svg" alt="">
+            </a>
+          </div>
+        </div>
+        <div class="footer-section">
+          <h4>Navigation</h4>
+          <ul>
+            <li><a href="#portfolio">Projects</a></li>
+            <li><a href="#logos">Logos</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Connect</h4>
+          <ul>
+            <li><a href="mailto:kianprice210@gmail.com">kianprice210@gmail.com</a></li>
+            <li><a href="https://github.com" target="_blank">GitHub</a></li>
+            <li><a href="https://dribbble.com" target="_blank">Dribbble</a></li>
+            <li><a href="https://linkedin.com" target="_blank">LinkedIn</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025 Kian Price. All rights reserved.</p>
+        <div class="footer-bottom-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script type="module" src="src/main.js"></script>
+</body>
+</html>
